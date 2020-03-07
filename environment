@@ -4,7 +4,7 @@ export CONTECO_LABEL="package.metrics-overlay - ModEco"
 export CONTECO_DESCRIPTION="The ModEco metrics overlay module package."
 
 export CONTECO_TYPE="package"
-export CONTECO_NAME="metrics-overlay"
+export CONTECO_NAME="metrics_overlay"
 export CONTECO_TAG="v1.0.0"
 export CONTECO_TAG_TYPE="incremental"
 
