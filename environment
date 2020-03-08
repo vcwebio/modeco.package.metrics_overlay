@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="package.metrics-overlay - ModEco"
+export CONTECO_LABEL="package.metrics_overlay - ModEco"
 export CONTECO_DESCRIPTION="The ModEco metrics overlay module package."
 
 export CONTECO_TYPE="package"
