@@ -11,7 +11,7 @@ if [[ "package_metrics_overlay_metrics_overlay_volume" == "$prefix"* ]] ; then
 		while [[ "true" == "$continue" ]] ;
 		do
 			executionplane docker volume rm "package_metrics_overlay_metrics_overlay_volume"
-			result=
+			result=$(docker volume ls | grep "package_metrics_overlay_metrics_overlay_volume")
 			if [[ "$result" == "" ]] ; then
 				continue="false"
 			else
