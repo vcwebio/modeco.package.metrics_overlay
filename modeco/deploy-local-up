@@ -3,7 +3,7 @@
 
 prefix="package_$2"
 
-if [[ "package_metrics_overlay_metrics_overlay_volume" == "$prefix"* ]] ; then
-	executionplane --silent docker volume create package_metrics_overlay_metrics_overlay_volume
+if [[ "_metrics_overlay_volume" == "$prefix"* ]] ; then
+	executionplane --silent docker volume create _metrics_overlay_volume
 	fi
 	
